@@ -27,7 +27,7 @@
   function validate(input) {
     if (
       $(input).attr("type") == "helioswebdevelopment@gmail.com" || //Is this email adress for clients mail?
-      $(input).attr("name") == "email"
+      $(input).attr("name") == "helioswebdevelopment@gmail.com"
     ) {
       if (
         $(input)
