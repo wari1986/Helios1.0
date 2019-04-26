@@ -17,7 +17,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
   color: #d7dee8;
 }
@@ -95,8 +95,12 @@ h6 {
     margin-bottom: 0;
   }
 
+  .intro-message {
+    margin-right: 45px;
+  }
+
   .intro-divider {
-    width: 60%;
+    width: 100%;
   }
 
   .content-section-a {
@@ -105,21 +109,25 @@ h6 {
 
   .lead {
     justify-content: center;
-    text-align: center;
+    text-align: justify;
+    margin-right: 45px;
   }
 
   .section-heading {
     display: flex;
     justify-content: center;
+    text-align: center;
+    margin-right: 45px;
   }
 
   .ourprocess-title {
     display: flex;
     justify-content: center;
     text-align: center;
-    padding-bottom: 10%;
+    padding-bottom: 20%;
     padding-top: 0%;
     color: #f2f2f7;
+    margin-right: 45px;
   }
 
   .outlinedicon {
@@ -134,11 +142,22 @@ h6 {
   }
 
   #sectionspacer {
-    width: 100%;
+    display: none;
   }
 
   #ipad {
     display: none;
+  }
+
+  .list-inline {
+    display: flex;
+    justify-content: center;
+    margin-right: 45px;
+  }
+  #copyright {
+    display: flex;
+    justify-content: center;
+    margin-right: 45px;
   }
 }
 
